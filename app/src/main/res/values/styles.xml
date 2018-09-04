@@ -1,0 +1,39 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">?attr/toolbarTitleColor</item>
+        
+        <item name="toolbarTitleColor">@color/colorAccent</item>
+        <item name="toolbarTitleSize">30sp</item>
+
+        <item name="attr_defStyle">@style/style_attr_defStyleAttr</item>
+
+        <item name="text1">text1 theme</item>
+        <item name="text2">text2 theme</item>
+        <item name="text3">text3 theme</item>
+        <item name="text4">text4 theme</item>
+    </style>
+
+
+    <style name="style_attr_defStyleAttr">
+        <item name="text1">text1 style_attr_defStyleAttr</item>
+        <item name="text2">text2 style_attr_defStyleAttr</item>
+        <item name="text3">text3 style_attr_defStyleAttr</item>
+    </style>
+
+    <style name="style_viewStyle">
+        <item name="text1">text1 style_viewStyle</item>
+        <item name="text2">text2 style_viewStyle</item>
+    </style>
+
+
+    <style name="TextStyle" parent="@style/TextAppearance.AppCompat.Title">
+        <item name="android:textSize">?attr/toolbarTitleSize</item>
+        <item name="android:textColor">?attr/toolbarTitleColor</item>
+    </style>
+
+</resources>
